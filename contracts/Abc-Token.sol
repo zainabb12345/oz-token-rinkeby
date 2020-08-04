@@ -110,8 +110,7 @@ interface ERC20{
 contract AbcToken is Ownable, ERC20{
     
     using SafeMath for uint256;
-
-
+    
     string  _name;
     string  _symbol;
     uint256 _totalSupply;
